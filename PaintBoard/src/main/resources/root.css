@@ -1,0 +1,41 @@
+#button_edit {
+	-fx-graphic: url("edit.png");
+}
+
+#button_reset {
+	-fx-graphic: url("reset.png");
+}
+
+#button_erase {
+	-fx-graphic: url("eraser.png");
+}
+
+#button_info {
+	-fx-graphic: url("information.png");
+}
+
+#cell, #cell_selected {
+	-fx-background-color: lightgrey;
+	background-color: lightgrey;
+	-fx-border-color: grey;
+	border-color: grey;
+	-fx-border-width: 0.4;
+	border-width: 0.4;
+}
+
+#cell:hover {
+	-fx-border-color: red;
+	border-color: red;
+	-fx-border-width: 1;
+	border-width: 1;
+}
+
+#cell {
+	-fx-background-color: lightgrey;
+	background-color: lightgrey;
+}
+
+#cell_selected {
+	-fx-background-color: red;
+	background-color: red;
+}
